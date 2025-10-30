@@ -13,10 +13,22 @@ strong {
       ul {
         list-style-type: square;
       }
-#products p {
+article p:last-child {
+    font-weight: bold;
+    color: olive;
+}
+#RMist p {
     color: red;
+    font-size: 150%;
 }      
-#products img {
-    width: 500px;
+#RMist img {
+
+}
+img.Mist {
+    width: 1000px;
     height: 500px;
+    object-fit: fill;
+}
+p::selection {
+    background-color: blueviolet;
 }
