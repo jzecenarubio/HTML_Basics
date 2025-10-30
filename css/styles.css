@@ -1,0 +1,22 @@
+strong {
+        color: purple;
+        font-style: normal;
+      }
+      img {
+        width: 200px;
+        height: 200px;
+        object-fit: scale-down;
+      }
+      video {
+        width: 400px;
+      }
+      ul {
+        list-style-type: square;
+      }
+#products p {
+    color: red;
+}      
+#products img {
+    width: 500px;
+    height: 500px;
+}
